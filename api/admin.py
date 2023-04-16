@@ -9,6 +9,7 @@ import xlwt
 # class ProjectAdmin(admin.ModelAdmin):
 #     list_display = ('project_name', 'description', 'start_date', 'complete')
 #     list_filter = ('start_date', 'complete')
+
 class ProjectAdmin(admin.ModelAdmin):
     list_display = ('project_name', 'description', 'start_date', 'complete')
     list_filter = ('start_date', 'complete')
@@ -54,3 +55,5 @@ class DepartmentAdmin(admin.ModelAdmin):
 admin.site.register(Project, ProjectAdmin)
 admin.site.register(Document, DocumentAdmin)
 admin.site.register(Department, DepartmentAdmin)
+
+#testcaaaaaaase completed 
